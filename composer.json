@@ -1,0 +1,20 @@
+{
+    "name": "ddj/database",
+    "description": "Gestion simple de connexions multiples à MariaDB/MySQL via PDO",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DDJ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nayazkaya",
+            "email": "basura@didierjean.net"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
